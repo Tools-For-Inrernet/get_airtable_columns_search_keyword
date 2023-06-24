@@ -1,0 +1,90 @@
+ /* CSS for the HTML structure */
+
+/* Global styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.mjapple-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Dropdown */
+.mjapple-dropdown {
+  margin-bottom: 20px;
+}
+
+.mjapple-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mjapple-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* Search Input */
+.mjapple-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* Results */
+.mjapple-results {
+  margin-top: 20px;
+}
+
+.mjapple-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mjapple-results li {
+ padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.mjapple-results li:first-child {
+  margin-top: 10px;
+}
+
+/* Additional Styling */
+.mjapple-container {
+  text-align: center;
+}
+
+.mjapple-label {
+  color: #333333;
+}
+
+.mjapple-select,
+.mjapple-input {
+  color: #333333;
+}
+
+.mjapple-results li {
+  color: #333333;
+}
